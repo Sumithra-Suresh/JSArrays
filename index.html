@@ -1,0 +1,45 @@
+<!--
+    Front-end projects which interacts with a set of functions. 
+    Each function focuses on using a different array method.
+-->
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Array Methods</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <header class="header">
+        <h3>JS Array Methods</h3>
+      </header>
+
+      <div id="wrapper">
+        <div id="inputBox">  
+          <form id="form">  
+            <label for="input">Input:</label>
+            <input type="text" class="input" id="input" name="input" size="40" placeholder="Enter numbers separated by comma..." onclick="clearOutputScreen()">                       
+            <p>Please select the method to perform on the array:</p>
+    
+            <input type="radio" class="radioBtn" id="filter" name="arrMethod" value="filter" >
+            <label for="filter">filter()</label><br />
+            <input type="radio" class="radioBtn" id="reduce" name="arrMethod" value="reduce" >
+            <label for="reduce">reduce()</label><br />
+    
+            <input class="execute" type="button" value="Execute" onclick="executeArrMethod()" >
+          </form>       
+        </div>
+        <div id="outputBox">
+          <p>Output will be displayed here.. </p>    
+        </div>  
+      </div> 
+
+      <footer>
+        <a href="https://www.w3schools.com/jsref/jsref_obj_array.asp" target="_blank">Complete JS array reference</a>
+      </footer>   
+    </div>
+  </body>
+</html>

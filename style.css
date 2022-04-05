@@ -1,0 +1,75 @@
+/* global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+  
+  /* Style the header */
+  header {   
+    font-size: 2rem; 
+    text-align: center;
+    padding: 30px;      
+    color: white;
+    background-color: #ce5273;
+  }
+  
+  /* Container for flexboxes */
+  #wrapper {  
+    display: flex;
+  }
+  
+  /* Style the content */
+  #inputBox,
+  #outputBox {  
+    flex: 3;    
+    padding: 10px;    
+    margin: 10px;
+    height: 400px;
+    background-color:#fcf0f3; 
+  }
+  
+  /* Style InputBox */
+  .input {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 5px;  
+    border: none;
+    margin: 15px auto;
+  }
+  
+  #form > p {
+    margin-top: 30px;
+  }
+  
+  .radioBtn {
+    margin-top: 10px;
+  }
+  
+  .execute {
+    display: block;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: white;
+    background-color: #ad466c;
+  }
+  
+  /* Style the footer */
+  footer {
+    font-size: 1.3rem;
+    text-align: right;
+    padding: 10px;       
+    height: 70px;    
+    color: white;
+    background-color: #ce5273;
+  }
+  
+  a {
+    color: white;
+  }
+  
