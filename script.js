@@ -67,10 +67,13 @@ function divisibleBy2(num) {
     // Clear input fields and radio button selection
     document.getElementById('input').value = '';
   
-    let radioBtn = document.getElementsByName('arrMethod');
+    // Leave the previously selected radio btn checked to have one 
+    // of the button is selected as default.
+
+    /*let radioBtn = document.getElementsByName('arrMethod');
     for (let i in radioBtn) {
       radioBtn[i].checked = false;
-    }
+    }*/
   }
   
   //===========================================================
